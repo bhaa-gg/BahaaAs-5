@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body data-bs-target="#nav" data-bs-spy="scroll">
+
+
+    <nav id="nav" class="navbar navbar-expand-lg  p-5">
+        <div class="container ">
+            <img src="img/logo@2x.png" width="75" alt="">
+            <div class="sLogo ms-2  ">
+                <h6 class="text-white  ps-1">Weather</h6>
+                <p class="text-white p-0 m-0 " style="font-size: 10px !important;"> tagline goes here</p>
+            </div>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto column-gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Camera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header id="head2">
+        <div class="container">
+            <div class="head2-head bg-dark text-white w-100 rounded-pill p-3 d-flex align-items-center">
+                <ul class="list-unstyled d-flex align-items-center gap-3 p-0 m-0">
+                    <li><a href="index.html">Home</a></li>
+                    <li><i class="fa-solid fa-right-long"></i></li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-6">
+                    <div id="location" class="cards  text-center  pe-3 text-white">
+                        <img src="img/pngfind.com-location-icon-png-1027369.png" class="w-50" alt="">
+                        <h2>Click  To Get Your Location</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cards text-white">
+                        <div class="cardH">
+                            <h2>Contact us </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos labore corporis explicabo
+                                iusto, itaque impedit, exercitationem distinctio, doloremque consectetur ad iure enim
+                                voluptatem officiis. Obcaecati vel beatae ad quaerat omnis.</p>
+                        </div>
+                        <div class="cardForm w-100">
+                            <div class="row py-3">
+                                <div class="col-lg-6">
+                                    <div class=""> 
+
+                                        <input type="text" placeholder="Name"
+                                            class="rounded-pill form-control  bg-transparent p-2 border-secondary w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Email"
+                                            class="rounded-pill form-control bg-transparent p-2 border-secondary w-100">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row py-3">
+                                <div class="col-lg-6">
+                                    <div>
+
+                                        <input type="text" placeholder="Company"
+                                            class="rounded-pill form-control bg-transparent p-2 border-secondary w-100 ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div>
+                                        <input type="text" placeholder="Wepsite"
+                                            class="rounded-pill form-control bg-transparent p-2 border-secondary w-100">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <textarea name="" placeholder="Message..."
+                                    class="rounded-5 bg-transparent p-3 border-secondary w-100" id="" cols="30"
+                                    rows="5"></textarea>
+                                <button class="btn btn-info rounded-pill ms-auto my-2 w-25 ">Supmit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer class="m-0 p-5">
+        <div class="container">
+
+            <div class="head d-flex align-items-center justify-content-between">
+                <div class="h-a input-group mb-3 bg-dark p-1 w-50  rounded-pill">
+                    <input type="text" class="form-control shadow-none text-white border-0 bg-transparent"
+                        placeholder="Find Your Location....." aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
+                    <button class="input-group-text btn btn-primary py-2 px-4  rounded-pill" id="basic-addon2">
+                        Supscribe</button>
+                </div>
+                <ul class="list-unstyled d-flex column-gap-5 ">
+                    <li><a href=""><i class="fa-brands text-info fs-5 p-3 rounded-circle bg-dark fa-facebook"></i></a>
+                    </li>
+                    <li><a href=""><i class="fa-brands text-info fs-5 p-3 rounded-circle bg-dark fa-twitter"></i></a>
+                    </li>
+                    <li><a href=""><i class="fa-brands text-info fs-5 p-3 rounded-circle bg-dark fa-google"></i></a>
+                    </li>
+                    <li><a href=""><i class="fa-brands text-info fs-5 p-3 rounded-circle bg-dark fa-twitch"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <p class="text-white pt-3 fs-6">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        const api = "54580631-8bd4-40cd-baa5-068cf69e7cb3";
+
+        const find = () => {
+
+            const success = (postion) => {
+                console.log(postion);
+                const lat = postion.coords.latitude;
+                const lon = postion.coords.longitude;
+                apiw(lat, lon);
+
+            }
+
+            const erorr2 = (erorr) => {
+                console.log(erorr);
+            }
+
+
+            navigator.geolocation.getCurrentPosition(success, erorr2)
+        }
+
+
+        document.getElementById("location").addEventListener("click", find)
+
+        async function apiw(x, y) {
+            let data = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${x}&longitude=${y}&localityLanguage=en`);
+            let res = await data.json();
+            console.log(res);
+            document.getElementById('location').innerHTML = `<iframe class="w-100 h" height="500px" src="https://www.openstreetmap.org/export/embed.html?bbox=${y},${x}&;layer=mapink" frameborder="0"></iframe>
+
+            <a target="_blank" href="https://www.google.com/maps/place/${res.city}" class="btn mt-2 fw-bold  text-white ">Your Location in  Google Map <i class="fa-solid fa-location-dot"></i></a>
+            
+            `;
+
+        }
+
+    </script>
+
+
+    <script src="java/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

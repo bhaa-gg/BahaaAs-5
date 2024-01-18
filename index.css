@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box !important;
+}
+
+nav {
+    background-color: #1E202B !important;
+}
+
+nav a {
+    color: white !important;
+}
+
+nav .collapse .nav-link {
+    /* color: #009AD8 !important; */
+    padding: 5px 15px !important;
+    transition: 0.2s;
+
+}
+
+nav .collapse .nav-link:hover {
+    color: #009AD8 !important;
+}
+
+nav .collapse .nav-link.active {
+    border-radius: 50rem;
+    color: #009AD8 !important;
+    border: 3px solid #009AD8 !important;
+}
+
+nav .collapse li {
+    text-align: center;
+    color: #009AD8 !important;
+}
+
+.weatherTable .tB h6 {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.weatherTable .row .tables {
+    height: 100%;
+}
+
+#head {
+    background-image: url("img/تنزيل.gif");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: #262936;
+}
+
+footer li i {
+    transition: 0.3s;
+}
+
+footer li i:hover {
+    background-color: #009AD8 !important;
+    color: white !important;
+}
+
+.weatherTable .tH1 {
+    border-top-left-radius: 5px;
+}
+
+.weatherTable .tH2 {
+    border-top-right-radius: 5px;
+}
+
+.weatherTable .tB2 {
+    border-bottom-right-radius: 5px;
+}
+
+.weatherTable .tB1 {
+    border-bottom-left-radius: 5px;
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 0.6 !important;
+}
+
+#head2
+{
+    background-color: #1E202B !important;
+
+}
+#head2 .head2-head a
+{
+    color: grey;
+    text-decoration: none;
+
+}
+
+#head2 .row .form-control,textarea
+{
+    box-shadow: none;
+    border: grey 2px solid;
+    color: white;
+}
+#head2 .row .form-control:hover,textarea:hover
+{
+    border-color: #009AD8 !important;
+}
+
+#location 
+{
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px)
+{
+    .head
+    {
+        flex-direction: column;
+    }
+    .head .h-a
+    {
+
+        width: 100% !important;
+    }
+    #head2  input
+    {
+        margin-bottom: 20px  !important;
+    }
+    footer
+    {
+        text-align: center;
+    }
+}
