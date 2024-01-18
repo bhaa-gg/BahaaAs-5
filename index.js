@@ -84,8 +84,8 @@ function displayday(result) {
             console.log(formattedDate);
             console.log(Bday1.hour[i].time);
             cartona1 = `
-    <div class="col-md-4  ">
-                        <div class="tables ">
+    <div class="col-md-4  d-flex  gy-5 ">
+                        <div class="tables w-100 ">
                             <div class="tH tH1   bg-secondary d-flex justify-content-between">
                                 <p class="p-2 m-0">${dayWeek}</p>
                                 <p class="p-2 m-0">${dayMonth}${month}</p>
@@ -125,8 +125,8 @@ function displayday(result) {
 
         cartona2 +=
             `
-    <div class="col-md-4  ">
-                        <div class="tables ">
+    <div class="col-md-4 d-flex   gy-5">
+                        <div class="tables w-100  ">
                             <div class="tH  text-center  ${i == 2 ? " bg-secondary" : " bg-body-secondary"}">
                                 <p class="p-2 m-0">${dayWeeks}</p>
                             </div>

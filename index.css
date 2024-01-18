@@ -121,10 +121,11 @@ input::placeholder {
     .head .h-a
     {
 
-        width: 100% !important;
+        width: 120% !important;
     }
     #head2  input
     {
+        
         margin-bottom: 20px  !important;
     }
     footer
